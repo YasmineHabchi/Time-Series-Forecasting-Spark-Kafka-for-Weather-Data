@@ -42,4 +42,3 @@ This project streams real-time weather data using WeatherAPI, processes it with 
    - **Deep LSTM model.ipynb**: Jupyter notebook for training the Deep LSTM model for time series forecasting.
    - **weather-forecasting.ipynb**: Jupyter notebook for training the DecisionTreeRegressor model.
 - **docker-compose.yml**: Docker Compose file for setting up necessary containers.
-- **data**: Directory to store historical weather data.
