@@ -39,7 +39,7 @@ This project streams real-time weather data using WeatherAPI, processes it with 
 - **kafka_producer.py**: Python script to stream weather data to Kafka topic.
 - **kafka_consumer.py**: PySpark script for consuming and processing data from Kafka topic.
 - **Notebooks**: Jupyter notebooks for training machine learning models.
-   - **Deep LSTM model.ipynb**: Jupyter notebook for training the LSTM model for time series forecasting.
+   - **Deep LSTM model.ipynb**: Jupyter notebook for training the Deep LSTM model for time series forecasting.
    - **weather-forecasting.ipynb**: Jupyter notebook for training the DecisionTreeRegressor model.
 - **docker-compose.yml**: Docker Compose file for setting up necessary containers.
 - **data**: Directory to store historical weather data.
