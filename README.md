@@ -41,4 +41,5 @@ This project streams real-time weather data using WeatherAPI, processes it with 
 - **Notebooks**: Jupyter notebooks for training machine learning models.
    - **Deep LSTM model.ipynb**: Jupyter notebook for training the Deep LSTM model for time series forecasting.
    - **weather-forecasting.ipynb**: Jupyter notebook for training the DecisionTreeRegressor model.
+   - **Temperature_Forecasting_ARIMA**: Jupyter notebook for predicting hourly and daily temperature of Berlin with applying ARIMA model
 - **docker-compose.yml**: Docker Compose file for setting up necessary containers.
