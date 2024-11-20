@@ -31,7 +31,7 @@ This project streams real-time weather data using WeatherAPI, processes it with 
    ```
 4. Run Kafka producer to stream data:
    ```bash
-      spark-submit --master local --driver-memory 4g --num-executors 2 --executor-memory 4g --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,io.delta:delta-spark_2.12:3.0.0 Kafka/kafka_consumer.py
+      spark-submit --master local --driver-memory 4g --num-executors 2 --executor-memory 4g --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,io.delta:delta-spark_2.12:3.0.0 spark/kafka_consumer.py
    ```
 5.Execute Jupyter notebooks for machine learning models training.
 
