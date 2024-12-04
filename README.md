@@ -1,7 +1,7 @@
 # time-series-forecasting-spark-kafka-for-weather-data
 ## Overview
 
-This project streams real-time weather data using WeatherAPI, processes it with Apache Kafka and PySpark, and performs time series forecasting using a Deep LSTM model. It stores the processed data in Delta Lake and utilizes historical weather data from an API since 2010 for forecasting future trends with a DecisionTreeRegressor and ARIMA.
+This project streams real-time weather data using WeatherAPI, processes it with Apache Kafka and PySpark, and performs time series forecasting using a Deep LSTM model. It stores the processed data in Delta Lake and utilizes historical weather data from an API since 2010 for forecasting future trends using the SARIMAX model.
 
 ![project workflow](./image/Project_Workflow.png)
 
